@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Booking System</title>
+    <link rel="stylesheet" href="/Travels/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div id="menu" class="fas fa-bars"></div>
+        <a href="#" class="logo">Trip <span>B</span>ooking</a>
+        <div class="navbar">
+            <a href="Home">Home</a>
+            <a href="About">About</a>
+            <a href="Book">Book</a>
+            <a href="Services">Services</a>
+            <a href="Contact Us">Contact Us</a>
+
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-search" id="s-btn"></i>
+            <i class="fa-regular fa-user" id="login-bn"></i>
+
+        </div>
+
+        <form action="" class="search-container">
+            <input type="search" id="search-btn" placeholder="Search">
+            <label for="search-btn" class="fas fa-search"></label>
+        </form>
+    </header>
+
+
+
+    <div class="login">
+        <i class="fa-solid fa-xmark" id="form-close" style="color: skyblue;"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="em" placeholder="Enter your email">
+            <input type="password" class="em" placeholder="Enter your password">
+            <input type="submit" value="login now" class="sub">
+            <input type="checkbox" id="remember me">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>Don't have account? <a href="/Travels/signup.html">Register now</a></p>
+        </form>
+    </div>
+
+   
+    <section class="hero" id="home">
+        <div class="content">
+            <h3>Discover places for Advantures</h3>
+            <p> Get Ready with Trip Booking</p>
+            <a href="#" class="btn">Start now</a>
+        </div>
+
+        <video src="/Travels/video.mp4" autoplay loop muted></video>
+
+    </section>
+
+    <section class="Book" id="Book">
+        <h1 class="head">
+            <span>B</span>
+            <span>O</span>
+            <span>O</span>
+            <span>K</span>
+            <span class="space"></span>
+            <span>N</span>
+            <span>O</span>
+            <span>W</span>
+        </h1>
+        <div class="row">
+
+            <form action="">
+                <div class="inputbox">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputbox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputbox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputbox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <div class="inputbox">
+                    <h3>Select Service</h3>
+                    <label>
+                        <input type="radio" name="service" value="flights"> Flights
+                    </label>
+                    <label>
+                        <input type="radio" name="service" value="cars"> Car Rentals
+                    </label>
+                    <label>
+                        <input type="radio" name="service" value="cars"> Hotels
+                    </label>
+                </div>
+                <input type="submit" class="sub" value="Book now">
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#" class="logo">Trip <span>B</span>ooking</a>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="About">About</a></li>
+                    <li><a href="Book">Book</a></li>
+                    <li><a href="Services">Services</a></li>
+                    <li><a href="Contact Us">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2023 Trip Booking. All rights reserved.
+        </div>
+    </footer>
+
+
+
+
+    <script src="/Travels/travel.js"></script>
+</body>
+
+</htm
